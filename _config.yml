@@ -1,0 +1,17 @@
+# Site settings
+title: aqa-asm # top title
+permalink: none # prefix of post, i.e. .../2016-10-20-my-post
+baseurl: "/"
+url: "0x16.cf/aqa-asm"
+github_username: twentytwoo
+timezone: UTC-1
+
+# Meta tag settings
+license: MIT
+author: May W.
+e-mail: may.tt@protonmail.ch
+
+# Rendering settings
+markdown: kramdown
+kramdown:
+  input: GFM
