@@ -1,8 +1,8 @@
 # Site settings
 title: aqa-asm # top title
 permalink: none # prefix of post, i.e. .../2016-10-20-my-post
-baseurl: "/"
-url: "0x16.cf/aqa-asm"
+baseurl: "aqa-asm/"
+url: "0x16.cf/"
 github_username: twentytwoo
 timezone: UTC-1
 
