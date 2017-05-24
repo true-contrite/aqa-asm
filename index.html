@@ -14,12 +14,13 @@ layout: default
                 </div>
                 <div class="col-6 nm">
                     <h4>Snippets</h4>
-                    <ul>
-                        <li><a href="">Adding two intergers together (subroutine)</a></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                <ul>
+                   {% for post in site.categories.tutorials %} <!-- snippets -->
+	                 {% if post.url %}
+                    <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
                 </div>
                 </div>
 
