@@ -15,7 +15,7 @@ layout: default
                 <div class="col-6 nm">
                     <h4>Snippets</h4>
                 <ul>
-                   {% for post in site.categories.tutorials %} <!-- snippets -->
+                   {% for post in site.categories.snippets %} <!-- snippets -->
 	                 {% if post.url %}
                     <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
                     {% endif %}
