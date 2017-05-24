@@ -6,7 +6,7 @@ With the limited amount of commands that the AQA assembler has, it is currently 
 
 The following program allows you to add two values together.
 
-~~~asm
+~~~lisp
 ;0XB0  Register containing the result of addition
 ;0XB1  Register containing the value to be added to the other
 
