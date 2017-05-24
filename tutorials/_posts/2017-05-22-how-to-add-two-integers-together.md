@@ -33,7 +33,7 @@ ADD:          ; the NOP allows the subroutine to be called
 
 With this subroutine you can add the value in one register to the value of another, the function of this subroutine may be easier to understand in pseudo-code, for example.
 
-~~~
+~~~lua
 b0 = 0 -- Product
 b1 = 0 -- Variable containg addition value
 
